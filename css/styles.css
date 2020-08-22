@@ -1,6 +1,9 @@
 .jumbotron{
     width: auto;
-    margin:90px;
+    margin:170px;
+}
+body{
+    background-color:black;
 }
 span{
     color:red;
@@ -15,9 +18,10 @@ h1{
     font-weight: bolder;
     font-size: xx-large;
     text-decoration-line: underline;
+    font-family: 'Times New Roman', Times, serif;
 }
 p{
-    font-size: x-large;
+    font-size: larger;
     text-align: justify;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -27,27 +31,33 @@ h2{
     font-weight: bold;
     color: green;
     text-decoration-line: underline;
+    text-align: justify;
 }
 h3{
     padding-bottom: 20px;
     padding-top: 5px;
-}
-.row{
-   padding-left: 210px;
-}
-ul{
     font-size: x-large;
 }
-.col-md-5 mt30 akan-form{
-    float: centre;
-    text-align: center;
-    text-decoration-color: goldenrod;
+.row{
+   padding-left: 150px;
 }
-.container{
+ul{
+    font-size: larger;
+}
+
+.jumbotron1{
     background-color:black;
+    width: auto;
+    color:goldenrod;
+    padding-top: 50px;
     margin-left: 90px;
     margin-right: 90px;
-    margin-top:0px;
-    width: auto;
-    text-decoration-color:goldenrod;
+    margin-bottom: 200px;
+}
+h4{
+    font-size: x-large;
+    text-align:left;
+    padding-bottom:40px;
+    padding-top: 30px;
+
 }

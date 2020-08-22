@@ -1,4 +1,53 @@
 .jumbotron{
     width: auto;
-    margin:50px;
+    margin:90px;
+}
+span{
+    color:red;
+}
+span-1{
+    color: green;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration-line: underline;
+}
+p{
+    font-size: x-large;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bold;
+    color: green;
+    text-decoration-line: underline;
+}
+h3{
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.row{
+   padding-left: 210px;
+}
+ul{
+    font-size: x-large;
+}
+.col-md-5 mt30 akan-form{
+    float: centre;
+    text-align: center;
+    text-decoration-color: goldenrod;
+}
+.container{
+    background-color:black;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top:0px;
+    width: auto;
+    text-decoration-color:goldenrod;
 }

@@ -1,15 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-     <meta  charset="utf-8">
-     <meta  name="viewport" content="width=device-width initial-scale=1.0">
-     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <div class="jumbotron">
-            
-        </div>
 
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>THE AKAN WEBSITE</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>The<span>Akan</span><span-1>Website</span-1>
+        </h1>
+
+        <p>The The Akan website is an application which basically takes a user's birthday and
+            calculates the day of the week they were born and then outputs their Akan name
+            depending on their gender.Akan names are derived from the Ghanian culture whereby
+            children are given their first names as a 'day name' corresponding to the day in the
+            week they were born.
+        </p>
+        <h3>Here are Ghanian day names;</h3>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>MALE</h2>
+                <ul>
+                    <li>Sunday:Kwasi</li>
+                    <li>Monday:Kwadwo</li>
+                    <li>Tuesday:Kwabena</li>
+                    <li>Wednesday:Kwaku</li>
+                    <li>Thursday:Yaw</li>
+                    <li>Friday:Kofi</li>
+                    <li>Saturday:Kwame</li>
+                </ul>
+
+            </div>
+            <div class="col-lg-6">
+                <h2>FEMALE</h2>
+                <ul>
+                    <li>Sunday:Akosua</li>
+                    <li>Monday:Adwoa</li>
+                    <li>Tuesday:Abenaa</li>
+                    <li>Wednesday:Akua</li>
+                    <li>Thursday:Yaa</li>
+                    <li>Friday:Afua</li>
+                    <li>Saturday:Ama</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-5 mt30 akan-form">
+                <h5>Please Enter Your Birthdate Here:</h5>
+                <div class="add-stylist-form">
+                    <form>
+                        <div class="form-group mb15">
+                            <label class="label">Birthday</label>
+                            <div class="input-group mb15">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                <input type="text" placeholder="dd/mm/yyyy" id="myBirthDate" class="form-control"
+                                    autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="form-group mb15">
+                            <label class="label">Gender</label>
+                            <div class="rdio rdio-default fs11">
+                                <input type="radio" name="gender" id="male" value="Male">
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="rdio rdio-default fs11">
+                                <input type="radio" name="gender" value="Female" id="female">
+                                <label for="female">&nbsp;&nbsp;Female</label>
+                            </div>
+                        </div>
+                        <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i
+                                class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+                        <button type="reset" onclick="clearAkanMessage(); return false;"
+                            class="btn btn-default btn-xs"><i class="fa fa-times"
+                                aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
+                    </form>
+                </div>
+                <hr>
+                <div class="your-akan-name">
+                    <p id="message" class="output"></p>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>

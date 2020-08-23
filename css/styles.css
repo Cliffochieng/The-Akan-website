@@ -1,8 +1,9 @@
 .jumbotron{
     width: auto;
     margin:170px;
-    background-image: url(/images/cake.jpeg);
+    /* background-image: url(/images/cake.jpeg); */
     background-size: cover;
+    background-color:yellow;
 }
 body{
     background-color:black;
@@ -64,7 +65,6 @@ li{
     padding-top: 50px;
     margin-left: 90px;
     margin-right: 90px;
-    /* margin-bottom: 150px; */
 }
 h4{
     font-size: x-large;

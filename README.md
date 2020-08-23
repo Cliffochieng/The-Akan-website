@@ -1,5 +1,5 @@
 # {Tha Akan Website}
-#### {Brief description of application}, {Date of current version}
+#### {A website for }, {2020}
 #### By **{List of contributors}**
 ## Description
 {This is a detailed description of your application, including its purpose and usage. Give as

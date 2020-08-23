@@ -1,9 +1,8 @@
 .jumbotron{
     width: auto;
     margin:170px;
-    /* background-image: url(/images/cake.jpeg); */
     background-size: cover;
-    background-color:yellow;
+    background-color:goldenrod;
 }
 body{
     background-color:black;

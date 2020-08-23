@@ -1,4 +1,4 @@
-# {Application Name}
+# {Tha Akan Website}
 #### {Brief description of application}, {Date of current version}
 #### By **{List of contributors}**
 ## Description

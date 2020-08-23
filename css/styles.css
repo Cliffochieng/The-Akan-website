@@ -26,7 +26,11 @@ p{
     font-size: larger;
     text-align: justify;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+
 }
 h2{
     font-size: xx-large;
@@ -34,17 +38,23 @@ h2{
     color: green;
     text-decoration-line: underline;
     text-align: justify;
+    font-family:'Times New Roman', Times, serif;
 }
 h3{
     padding-bottom: 20px;
     padding-top: 5px;
     font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
 }
 .row{
    padding-left: 150px;
+   font-family:'Times New Roman', Times, serif;
 }
 ul{
     font-size: larger;
+}
+li{
+    font-weight: bolder;
 }
 
 .jumbotron1{
@@ -54,12 +64,17 @@ ul{
     padding-top: 50px;
     margin-left: 90px;
     margin-right: 90px;
-    margin-bottom: 200px;
+    /* margin-bottom: 150px; */
 }
 h4{
     font-size: x-large;
     text-align:left;
     padding-bottom:40px;
     padding-top: 30px;
-
+    font-family:'Times New Roman', Times, serif;
+}
+.footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 190px;
 }

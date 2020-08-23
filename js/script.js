@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $("#myBirthDate").mask("99/99/9999");
-});
+// $(document).ready(function(){
+//     $("#myBirthDate").mask("99/99/9999");
+// });
 
 
 function getAkanName(){

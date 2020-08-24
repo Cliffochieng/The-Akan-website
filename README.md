@@ -6,9 +6,7 @@
 ## Setup/Installation Requirements
 {A web browser on the computer.}
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Ou
-tline any issues that would impact use of your application. Share any workarounds that are in
-place. }
+{The page is not responsive to all devices}
 ## Technologies Used
 {HTML & CSS (Bootstrap) and JavaScript}
 ## Support and contact details

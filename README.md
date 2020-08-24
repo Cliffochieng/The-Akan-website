@@ -4,14 +4,7 @@
 ## Description
 { The Website is modelled to  take a user's birthday and calculates the day of the week they were born and then outputs their Akan name depending on their gender.Akan names are derived from the Ghanian culture whereby children are given their first names as a 'day name' corresponding to the day in the week they were born.}
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborat
-ors to run your app. Do I need to run a server? Do I need to install any dependencies? How sho
-uld I set up my databases? Is there other code this app depends on?}
+{A web browser on the computer.}
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Ou
 tline any issues that would impact use of your application. Share any workarounds that are in

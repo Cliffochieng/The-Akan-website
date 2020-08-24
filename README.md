@@ -1,5 +1,5 @@
 # {Tha Akan Website}
-#### {A website for }, {2020}
+#### {A website that calculate's user's birthday and gives them an Akan name depending on their Gender}, {2020}
 #### By **{List of contributors}**
 ## Description
 {This is a detailed description of your application, including its purpose and usage. Give as

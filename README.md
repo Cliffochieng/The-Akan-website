@@ -10,8 +10,7 @@
 tline any issues that would impact use of your application. Share any workarounds that are in
 place. }
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you pro
-bably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+{HTML & CSS (Bootstrap) and JavaScript}
 ## Support and contact details
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.
 Encourage them to contact you or make a contribution to the code.}

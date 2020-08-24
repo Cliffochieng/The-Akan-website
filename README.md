@@ -11,4 +11,4 @@
 {HTML & CSS (Bootstrap) and JavaScript}
 ### License
 *{MIT}*
-Copyright (c) {2020} **{Clifford Ochieng}**
+ (c) {2020} **{Clifford Ochieng}**
